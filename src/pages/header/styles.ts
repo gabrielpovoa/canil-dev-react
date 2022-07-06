@@ -27,6 +27,9 @@ export const Logo = styled.div`
         color: #454545;
         text-decoration: underline;
     }
+    @media screen and (max-width:45rem){
+        font-size: 2rem;
+    }
 `;
 
 export const Form = styled.form`
